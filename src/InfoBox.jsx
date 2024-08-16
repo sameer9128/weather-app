@@ -48,7 +48,7 @@ export default function InfoBox({info}){
          <p>temp_min={info.temp_min}&deg;C</p>
          
          <p>humidity={info.humidity}</p>
-         <p>the weather can be describe as <i>{info.weather}</i> ans feels like {info.feels_like}&deg;C</p>
+         <p>the weather can be describe as <i>{info.weather}</i> and feels like {info.feels_like}&deg;C</p>
         
           
         </Typography>
